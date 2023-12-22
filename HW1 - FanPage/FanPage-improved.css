@@ -1,0 +1,93 @@
+body{
+    font-family: "Calibri";
+}
+img{
+    margin-top: -10px;
+    width:100%;
+    height:auto;
+}
+.introduction{
+    background-color: #930444;
+    text-align: justify;
+    padding: 20px;
+}
+p{
+    padding:40px;
+    color: white;
+    margin-top: 5px;
+    font-size: 25px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h6{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.songs{
+    background-color: #0f4c5c;
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    border: 20px solid #0f4c5c;
+    border-radius: 10%;
+}
+
+iframe {
+    max-width: 100%;
+}
+.Achievements{
+    background-color:#d1910f;
+    padding: 20px;
+    text-align:center;
+}
+.Awards{
+    background-color:#45194d;
+    padding: 20px;
+    text-align:center;
+}
+h3{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+ul{
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    text-align:left;
+}
+li {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.social-media-links {
+    background-color:#232222;
+    padding: 20px;
+    text-align:center;
+    margin-bottom:20px
+}
+ a{
+    display: inline-block;
+    color:white;
+    font-size:20px;
+}
+
